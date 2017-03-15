@@ -1,4 +1,25 @@
-body {background-color: #04AFBF}
+body {
+  background-color: #04AFBF;
+}
+
+h1{
+  font-family: 'Caesar Dressing', cursive;
+  font-size: 5em;
+  color: white;
+  text-align: center;
+}
+
+h2, h3{
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+.p1{
+  text-align: center;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+}
 
     /* por el punto al principio del selector, esta es una regla para una clase de nombre container. En la mayoría de las veces 1em = 16px */
       .container{padding:5em 4em; margin:0;}
@@ -27,7 +48,7 @@ body {background-color: #04AFBF}
         padding:10px;
         margin:0;
         text-align: left;
-        font-size:90%;
+        font-size:100%;
       }
 
     /*
@@ -47,3 +68,4 @@ body {background-color: #04AFBF}
       section table td:last-child, section table th:last-child{
         padding-right:40px;
       }
+
